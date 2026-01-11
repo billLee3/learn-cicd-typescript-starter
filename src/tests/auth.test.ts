@@ -11,7 +11,7 @@ const invalidAuthHeaders: IncomingHttpHeaders = {
 };
 
 const undefinedHeaders: IncomingHttpHeaders = {
-  authorization: "ApiKey faeaea",
+  authorization: undefined,
 };
 
 test("Undefined authorization header", () => {
